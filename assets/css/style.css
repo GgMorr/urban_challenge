@@ -1,0 +1,229 @@
+/* Universal style selector to set box border style */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Controls basic element style */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Set class header font type, background and text colors */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Set class header font size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Set custom class header text color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Set class header section container size parameters, font and font size in header section*/
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Set unordered list item marker to none in header section */
+.header section ul {
+    list-style-type: none;
+}
+
+/* Set unordered list line paramerters in header section */
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*  Set text colr for link */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Set standard font size for paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Set class hero photo size and shape properties */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Set class floate location properties */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Set class floate location properties */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Set class content size */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*  Set class size and position properties */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Set class property size and color */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set class margin value and color */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set class property value for header 3 */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set class floate position properties */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set class size and  location properties for header 3 */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set class image location properties */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Set class image size properties */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Set class image size properties */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Set class size, font and color properties */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set class size, font and color properties */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set class size, font and color properties */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set class image height */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Set class image height */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Set class image height */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Set class margin and font properties */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set class margin and font properties */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set class margin and font properties */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set class container size, font and text location */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Set class header properties */
+.footer h2 {
+    font-size: 20px;
+}
